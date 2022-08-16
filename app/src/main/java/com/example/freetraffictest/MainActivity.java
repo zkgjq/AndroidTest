@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "测试弹窗1", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "测试弹窗2", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "测试弹窗3", Toast.LENGTH_SHORT).show();
     }
 }
